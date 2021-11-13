@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Myportfolio</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <style>
+          .admin{
+  color:white;
+  text-decoration: none;
+  line-height:1.9em;
+}
+.admin:hover{
+  color:red;
+  
+}
+        </style>   
+      </head>
+    <body>
+      <section id="homepage">
+        <div class="cover-div">
+            <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Shweta Jha</a>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#homepage">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#aboutpage">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#servicepage">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfoliopage">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#experiencepage">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactpage">Contact Us</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </div>
+              </nav>
+          
+              <canvas id="canvas" style="width:100%;margin:0;padding:0;"></canvas>
+              <div class="cover-name">
+                <h1>Hello!<br> I am
+                  <span
+                  class="txt-rotate"
+                  data-period="2000"
+                  data-rotate='[ "Shweta Jha.", "a Student.", "a Web Devloper.", "a Web Designer." ]'></span>
+                
+                </h1>
+                <h4>Welcome To My Portfolio</h4>
+             
+               
+            </div>
+              </div>
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <section id="aboutpage">
+        <div class="cover-1 div-cov"  >
+          <div class="container" data-aos="fade-right">
+          <h4>About Me</h4>
+          <h2>Welcome To My Site</h2>
+          <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+          </p>
+          <div class="skills">
+            <div class="details">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="bar">
+                <div id="html-bar"></div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="details">
+                <span>CSS</span>
+                <span>75%</span>
+            </div>
+            <div class="bar">
+                <div id="css-bar"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="details">
+                <span>Javascript</span>
+                <span>72%</span>
+            </div>
+            <div class="bar">
+                <div id="js-bar"></div>
+            </div>
+        </div>
+      <div class="skills">
+          <div class="details">
+              <span>PHP</span>
+              <span>68%</span>
+          </div>
+          <div class="bar">
+              <div id="jQuery-bar"></div>
+          </div>
+      </div>
+      <div class="skills">
+        <div class="details">
+            <span>Bootstrap5</span>
+            <span>78%</span>
+        </div>
+        <div class="bar">
+            <div id="bootstrap-bar"></div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="details">
+            <span>MySql</span>
+            <span>60%</span>
+        </div>
+        <div class="bar">
+            <div id="mysql-bar"></div>
+        </div>
+    </div>
+        
+        </div>
+      
+      </div>
+    </section>
+    <section id="servicepage">
+        <div class="cover-2 div-cov"  >
+          <div class="container" data-aos="fade-right">
+            <h4>My Services</h4>
+            <h2>I'm Available For Hire</h2>
+            <div class="backcls">
+            <div class="slider owl-carousel">
+              
+                  <div class="card">
+                    <div class="img">
+                      <img src="./images/Design.jpg" alt=""></div>
+                      <div class="content">
+                        <div class="title">Designing</div>
+                        <div class="sub-title">Web Designer</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="btn"><button>Read more</button></div>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="img">
+                      <img src="./images/backend-coding.jpg" alt=""></div>
+                      <div class="content">
+                        <div class="title">Devlopment</div>
+                        <div class="sub-title">Web Devlopment</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="btn"><button>Read more</button></div>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="img">
+                      <img src="./images/datascience.jpg" alt=""></div>
+                      <div class="content">
+                        <div class="title">Data Science</div>
+                        <div class="sub-title">Arange Data</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="btn"><button>Read more</button></div>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="img">
+                      <img src="./images/backend.jpg" alt=""></div>
+                      <div class="content">
+                        <div class="title">Marketing</div>
+                        <div class="sub-title">Social Marketing</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <div class="btn"><button>Read more</button></div>
+                      </div>
+                  </div>
+      
+                </div>          
+           
+            </div>
+        
+        </div>
+
+      </div>
+    </section>
+    <section id="portfoliopage">
+        <div class="cover-1 div-cov"  >
+          
+          <div class="container project-gallaery"  data-aos="fade-right">
+            <h4>Portfolio</h4>  
+          <h2>I Love What I Do</h2>  <br>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+          </div>
+            <div class="row g-2 row-cols-2 " style="margin:0;">
+            
+              <div class="col-sm-3">
+                <div class="img2">
+                  <img src="./images/music-people-smoke-crowd-celebration-concert-970908-pxhere.com.jpg">
+                  
+                </div>
+                <h4 class="intrest">Dancing</h4>
+          
+              </div>
+            
+              <div class="col-sm-3">
+                <div class="img2">
+                  <img src="./images/record-music-audience-equipment-color-microphone-1293398-pxhere.com.jpg">
+                  
+                </div>
+                <h4 class="intrest">Singing</h4>
+  
+              </div>
+              <div class="col-sm-3 ">
+                <div class="img2">
+                  <img src="./images/laptop-computer-writing-work-hand-technology-7742-pxhere.com.jpg">
+                  
+                </div>
+                <h4 class="intrest">Devloping</h4>
+  
+              </div>
+              <div class="col-sm-3 ">
+                <div class="img2">
+                  <img src="./images/backend.jpg">
+                  
+                </div>
+                <h4 class="intrest">Team Work</h4>
+  
+              </div>
+             
+             
+            </div>
+              
+         
+        </div>
+        
+      
+      </div>
+    </section>
+    <section id="experiencepage">
+        <div class="cover-2 div-cov" >
+          <div class="container" data-aos="fade-right"> 
+           
+          <h2 class="ex-head">Experiences</h2>
+          <div class="first-ex">      
+            <span class="ex-time">Aug 2021- Sep 2021</span>         
+            <h3 class="ex-topic">The Intern Academy - InternShip</h3>
+            <p>Project - <a href="https://github.com/shwetaj954/blogingwebsite.github.io" target="_blank">Bloging WebSite</a></p>
+          
+            </div>
+         
+          <div class="first-ex">      
+          <span class="ex-time">jul 2021- Aug 2021</span>         
+          <h3 class="ex-topic">LestsGrowMore - InternShip</h3>
+          <p>Project - <a href="https://github.com/shwetaj954/LGMVIP-WebDev" target="_blank">The Single Web Page & The Student Result Management System</a></p>
+          
+          </div>
+          <div class="first-ex">      
+            <span class="ex-time">jun 2021- jul 2021</span>         
+            <h3 class="ex-topic">The Spark Foundation - InternShip</h3>
+            <p>Project - <a href="https://github.com/shwetaj954/GripJulySpark" target="_blank">Banking System & Payment Gateway</a></p>
+          
+            </div>
+            <div class="first-ex">      
+              <span class="ex-time">April 2021- May 2021</span>         
+              <h3 class="ex-topic">Robust Results Private Limited - InternShip</h3>
+             <p>Project - <a href="https://github.com/shwetaj954/OnlineInstitute" target="_blank">Online Institute</a></p>
+              
+              </div>
+
+        </div></div>
+      </section>
+      <section id="educationpage">
+        <div class="cover-1 div-cov"  >
+          <div class="container" data-aos="fade-right">        
+          <h2 class="ex-head">Education</h2>
+          <div class="first-ex">      
+            <span class="ex-time">2019 - 2022</span>         
+            <h3 class="ex-topic">B.Tech.(Computer Science & Engineering</h3>
+            <p>Maharana Pratap Enginering College Kanpur  
+            </p>
+            </div>
+            <div class="first-ex">      
+              <span class="ex-time">2015 - 2018</span>         
+              <h3 class="ex-topic">Polytechnic Diploma(Information Technology)</h3>
+              <p>Govt. Polytechnic Kanpur
+              </p>
+              </div>
+              <div class="first-ex">      
+                <span class="ex-time">2013 - 2015</span>         
+                <h3 class="ex-topic">Intermediate(P.C.M)</h3>
+                <p>Shri Ram Lala Inter College(U.P Board)
+                </p>
+                </div>
+                <div class="first-ex">      
+                  <span class="ex-time">2012 - 2013</span>         
+                  <h3 class="ex-topic">HighSchool(Science)</h3>
+                  <p>Shri Ram Lala Inter College(U.P Board)
+                  </p>
+                  </div>
+          
+
+        </div></div>
+      </section>
+      <section id="contactpage">
+        <div class="cover-3 div-cov"  >
+          <div class="container" data-aos="fade-right">
+          <h4>Have a Question?</h4>
+          <h2>Contact Me Now</h2>
+          <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+          </p>
+          <form class="row g-3">
+           
+            <div class="col-12">
+             <input type="text" class="form-control" id="inputname" placeholder="Your Name">
+            </div>
+            <div class="col-12">              
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
+            </div>
+            <div class="col-12">             
+              <input type="number" class="form-control" id="inputphone" placeholder="Your Phone">
+            </div>  
+            <div class="col-12">    
+              <textarea placeholder="Your Message" class="form-control"></textarea>         
+             </div>  
+            <div class="col-12">
+              <button type="submit" class="btn btncls">SUBMIT FORM</button>
+            </div>
+          </form>
+
+        </div></div>
+    
+    
+        <div class="cover-2 div-cov"  >
+          <div class="container" data-aos="fade-right"> 
+            <div class="row g-2">
+              <div class="col-sm-4"><h3> <i class="material-icons large">phone</i><br>Call Us</h4><p style="font-size: 20px;">6386411981</p></div>
+              <div class="col-sm-4"><h3 style="line-height: 1.2em"> <i class="material-icons large">home</i><br>Address</h4><p style="font-size: 20px;">116/494 Keshav Nagar, Rwatpur Gaon, Kanpur Nagar, Uttar Pradesh - 208019</p></div>
+              <div class="col-sm-4"><h3> <i class="material-icons large">email</i><br>Email Us</h4><p style="font-size: 20px;">sjha52950@gmail.com</p></div>
+            </div>
+            
+          </div></div>
+        </section>
+          <div class="fotter1">
+            <div class="container"> 
+              <div class="row">
+                <div class="col-sm-12">
+                  <a href="https://m.facebook.com/shwetajha.shwetajha.7" target="_blank">
+                  <svg width="50" height="50" viewBox="0 0 24 24" file="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.89231 21V13.2538H7V9.94249H9.89231C9.89231 6.42419 9.89231 2.07805 17 3.17198V6.03983C13.9231 5.71462 13.6154 6.66071 13.6154 9.94249H17L16.3231 13.2538H13.6154V21" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                    <a href="https://github.com/shwetaj954" target="_blank">
+                  <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.7444 14C5.13962 13 5.64768 8.5 7.67987 7C7.27882 6.39155 6.66375 4 7.1718 3.00001C8.18792 3.5 9.55173 4.23944 10.2202 5C12.2524 4 15.3007 4 16.8249 5C17.226 4.18873 18.6968 3.42254 19.3652 3C19.9668 3.60845 19.5323 5.98592 19.3652 7C20.3678 9.19718 20.8894 12.5 15.3007 14C16.1273 14.6688 17.4571 16.2652 18.3819 18.0893C19.0373 19.3821 17.7844 20.5701 16.3571 20.3176C15.3606 20.1413 14.2545 20 13.2685 20C12.0745 20 10.494 20.2071 9.12617 20.4329C7.71155 20.6663 6.56735 19.4472 7.29296 18.2106C7.81974 17.3128 8.48393 16.4725 9.20408 16C8.95342 15.662 7.9605 14.6887 6.15574 15.5C3.89979 16.5141 2.60607 14.2676 3.10739 13" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                    <a href="https://www.linkedin.com/in/shweta-jha-30b0b1152" target="_blank">
+                  <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.50143 6.90595C2.37528 5.7193 3.24155 3.95978 5.14733 4.0007C7.05312 4.04162 7.61619 6.12849 6.83655 7.68341C6.21284 8.92734 4.35326 9.34744 3.50143 9.402V20H9.17547V8.95189H12.9004V10.7523C15.4993 7.68341 21 8.62454 21 13.0029V20H17.1019V14.5169C17.1019 12.0208 15.9757 11.5093 14.698 12.0208C13.4202 12.5323 12.9004 13.453 12.9004 15.3352C12.9004 17.5612 12.9004 19.3726 12.9004 20" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                    <a href="mailto:sjha52950@gmail.com"  target="_blank">
+                  <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.11098 18.9943H4.78839C4.19226 19.0474 3 18.7528 3 17.1491C3 15.5454 3 9.96574 3 7.74088C3 5.51602 5.29936 5.75901 6.46066 6.62465L11.9883 10.6567L17.6323 6.48797C18.9793 5.41731 21 6.16905 21 8.44707C21 11.8185 21 15.395 21 16.7618C21 17.6502 20.7631 18.9943 18.9793 18.9943H16.889V12.2058L11.9883 15.8506L7.11098 12.2058V16.7186" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                    <a href="https://mobile.twitter.com/jh_sweetu" target="_blank">
+                  <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 18.6443C7.56435 20.8078 17.1652 21.9701 19.0539 9.31123C19.715 9.01907 20.7994 8.21494 21 6.02928C20.3704 6.47935 19.1531 6.67711 17.9443 6.56341C15.9533 5.52114 11.9241 4.80102 11.7352 10.2587C9.61043 9.97449 4.99257 8.52478 3.51939 5C2.85835 7.55831 2.74503 13.4235 7.58009 16.4176C7.36761 16.7809 6.57908 17.5594 5.12478 17.7679" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></a>
+                </div>
+               <div class="col-sm-12"><a href="login.php" class="admin" target="_blank">Admin Login</a></div>
+              </div>
+              
+            
+            </div>
+
+          </div>
+     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script>
+
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,duration:1000,
+      });
+    </script>
+  <script>
+    $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000, //2000ms = 2s;
+      autoplayHoverPause: true,
+      responsive:{
+        0:{
+          items:1,
+          nav:false
+        },
+        600:{
+          items:2,
+          nav:false
+        },
+        1000:{
+          items:3,
+          nav:false
+        },
+      }
+    });
+  </script>
+    </body>
+</html>
