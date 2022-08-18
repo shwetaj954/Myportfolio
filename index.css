@@ -185,7 +185,7 @@ h4{
 }
 @keyframes html-fill{
   100%{
-      width: 90%;
+      width: 70%;
   }
 }
 #css-bar{
@@ -193,7 +193,7 @@ h4{
 }
 @keyframes css-fill{
   100%{
-      width: 75%;
+      width: 60%;
   }
 }
 #js-bar{
@@ -201,7 +201,7 @@ h4{
 }
 @keyframes js-fill {
   100%{
-      width: 72%;
+      width: 50%;
   }
 }
 #jQuery-bar{
@@ -209,7 +209,7 @@ h4{
 }
 @keyframes jQuery-fill{
   100%{
-      width: 58%;
+      width: 50%;
   }
 }
 #bootstrap-bar{
@@ -217,7 +217,7 @@ h4{
 }
 @keyframes bootstrap-fill{
   100%{
-      width: 78%;
+      width: 70%;
   }
 }
 #mysql-bar{
